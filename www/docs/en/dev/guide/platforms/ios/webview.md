@@ -61,6 +61,8 @@ After using either of these two methods, continue with the **"Using CDVViewContr
 
 1. Add `Carthage/Build/iOS/Cordova.framework` into your Xcode project.
 
+1. Add Cordova.framework into Embedded Binaries in your Xcode General Setting page.
+
 ## 2. Adding Cleaver to the Xcode Project (CordovaLib Sub-Project)
 
 1. Quit Xcode if it is running.
@@ -220,5 +222,4 @@ After using either of these two methods, continue with the **"Using CDVViewContr
     */
     viewController.wwwFolderName = @"myfolder";
     viewController.startPage = @"mypage.html"
-    ```
-
+    ```
